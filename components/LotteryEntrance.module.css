@@ -1,0 +1,19 @@
+.enterButton {
+    background-color: blue; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 16px; 
+    border: none; 
+    padding: 12px; 
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.enterButton:hover {
+    opacity: 0.5;
+}
+
+.enterButton:disabled {
+    opacity: 0.1;
+    cursor: none;
+}
