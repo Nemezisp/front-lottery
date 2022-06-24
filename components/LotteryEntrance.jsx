@@ -99,7 +99,7 @@ const LotteryEntrance = () => {
                     </button>
                 </div>
             ) : (
-                <div>No Raffle Address Detected - Change Network!</div>
+                <div>No Raffle Address Detected - Connect to Rinkeby Testnet!</div>
             )
             }
         </div>
